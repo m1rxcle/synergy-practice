@@ -165,14 +165,18 @@ func countAge(day int, month int, year int)int {
 
 func isLeapYear(year int) string {
 	if year % 4 == 0 && year % 100 != 0 || year % 400 == 0 {
-		return "Високосный"
+		return "Високосный."
 	}
 
-	return "Не високосный"
+	return "Не високосный."
 }
 
 func validateDate(day int, month int, year int) bool {
 	t := time.Date(year, time.Month(month), day, 0, 0, 0, 0, time.Local)
+
+	 if t.After(time.Now()) {
+        return false
+    }
 
 	return t.Day() == day && int(t.Month()) == month && t.Year() == year
 }
