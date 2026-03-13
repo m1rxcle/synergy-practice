@@ -110,7 +110,7 @@ func input(scanner *bufio.Scanner, text string) int {
 	number,err := strconv.Atoi(value)
 
 	if err != nil {
-		fmt.Println("Введены некорректные данные")
+		fmt.Println("Введены некорректные данные.")
 		os.Exit(1)
 	}
 
@@ -189,7 +189,7 @@ func main() {
 	valid := validateDate(day, month, year)
 
 	if !valid {
-		fmt.Println("Введены некорректные данные")
+		fmt.Println("Введены некорректные данные.")
 		return
 	}
 
