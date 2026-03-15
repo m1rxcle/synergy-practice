@@ -1,0 +1,9 @@
+{% extends "main/layout.html" %} {% block title %}Главная странница{% endblock %} {% block body %}
+<div class="form-container">
+	<h1 class="form-heading">Введите ваше имя</h1>
+	<form method="post">
+		<input class="form-input" type="text" name="name" placeholder="Ваше имя" />
+		<button class="form-button" type="submit">Отправить</button>
+	</form>
+</div>
+{% endblock %}
