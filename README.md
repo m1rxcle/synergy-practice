@@ -6,24 +6,24 @@
 
 ```text
 synergy-practice/
-├── (Branch №1) first-test-case/      # Простое тестовое задание на Go
+├── (Branch №1) first-test-case/       # Кейс-задача № 1 написанная на Go
 │   ├── .gitignore                     # Игнорируемые файлы
-│   ├── first-test-case.go             # Основной код теста
+│   ├── first-test-case.go             # Основной код задачи
 │   ├── go.mod                         # Модуль Go
-│   └── README.md                       # Описание задания
-├── (Branch №2) second-test-case/     # Тестовое задание на JS/HTML/CSS
+│   └── README.md                      # Файл readme
+├── (Branch №2) second-test-case/      # Кейс-задача № 2
 │   ├── app.js                         # Логика приложения
 │   ├── index.html                     # Главная страница
 │   ├── style.css                      # Стили
-│   └── README.md                       # Описание задания
-├── (Branch №3) third-test-case/      # Ещё одно задание на JS/HTML/CSS
-│   ├── app.js
-│   ├── index.html
-│   ├── style.css
-│   └── README.md
-└── (Branch №4) fourth-test-case/     # Ещё одно задание на JS/HTML/CSS
-    ├── app.js
-    ├── index.html
-    ├── style.css
-    └── README.md
+│   └── README.md                      # Файл readme
+├── (Branch №3) third-test-case/       # Кейс-задача № 3 проект на Django
+│   ├── app.js                         # Логика приложения
+│   ├── index.html                     # Главная страница
+│   ├── style.css                      # Стили
+│   └── README.md                      # Файл readme
+└── (Branch №4) fourth-test-case/      # Кейс-задача № 4
+    ├── app.js                         # Логика приложения
+    ├── index.html                     # Главная страница
+    ├── style.css                      # Стили
+    └── README.md                      # Файл readme
 ```
