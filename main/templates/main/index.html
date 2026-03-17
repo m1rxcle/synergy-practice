@@ -1,8 +1,15 @@
-{% extends "main/layout.html" %} {% block title %}Главная странница{% endblock %} {% block body %}
+{% extends "main/layout.html" %} {% block title %}Главная страница{% endblock %} {% block body %}
 <div class="form-container">
 	<h1 class="form-heading">Введите ваше имя</h1>
-	<form method="post">
-		<input class="form-input" type="text" name="name" placeholder="Ваше имя" />
+	<form method="post" novalidate>
+		{% csrf_token %}
+
+		<div class="input-validation">
+			{{form.name}}
+
+			<span class="error">{{form.name.errors}}</span>
+		</div>
+
 		<button class="form-button" type="submit">Отправить</button>
 	</form>
 </div>

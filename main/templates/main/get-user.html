@@ -1,5 +1,7 @@
 {% extends "main/layout.html" %} {% block title %}Пользователь{% endblock %} {% block body %}
 <div class="form-container">
-	<h1 class="form-heading">Приветствуем вас !</h1>
+	<h1 class="form-heading">Приветствуем вас <span class="founded-name">{{ name|default:"Незнакомец" }}</span> !</h1>
+
+	<a class="back-to-home" href="{% url 'main:index' %}">На главную</a>
 </div>
 {% endblock %}
