@@ -7,23 +7,47 @@
 ```text
 synergy-practice/
 ├── (Branch №1) first-test-case/       # Кейс-задача № 1 написанная на Go
-│   ├── .gitignore                     # Игнорируемые файлы
-│   ├── first-test-case.go             # Основной код задачи
-│   ├── go.mod                         # Модуль Go
-│   └── README.md                      # Файл readme
+│   ├── .gitignore                      # Игнорируемые файлы
+│   ├── first-test-case.go              # Основной код задачи
+│   ├── go.mod                          # Модуль Go
+│   └── README.md                       # Файл readme
 ├── (Branch №2) second-test-case/      # Кейс-задача № 2
-│   ├── app.js                         # Логика приложения
-│   ├── index.html                     # Главная страница
-│   ├── style.css                      # Стили
-│   └── README.md                      # Файл readme
+│   ├── app.js                          # Логика приложения
+│   ├── index.html                      # Главная страница
+│   ├── style.css                       # Стили
+│   └── README.md                       # Файл readme
 ├── (Branch №3) third-test-case/       # Кейс-задача № 3 проект на Django
-│   ├── app.js                         # Логика приложения
-│   ├── index.html                     # Главная страница
-│   ├── style.css                      # Стили
-│   └── README.md                      # Файл readme
-└── (Branch №4) fourth-test-case/      # Кейс-задача № 4
-    ├── app.js                         # Логика приложения
-    ├── index.html                     # Главная страница
-    ├── style.css                      # Стили
-    └── README.md                      # Файл readme
+│   ├── greeting/                       # Название проекта и стандартные файлы Django
+│   │   ├── __init__.py                 # Модуль Python
+│   │   ├── asgi.py                     # Конфигурационный файл
+│   │   ├── settings.py                 # Основные настройки Django
+│   │   ├── urls.py                     # Маршруты проекта
+│   │   └── wsgi.py                     # Конфигурационный файл
+│   ├── main/                           # Основное приложение проекта
+│   │   ├── static/                     # Статические файлы
+│   │   │   └── main/                   # Файлы основного приложения
+│   │   │       ├── js                   # Логика приложения
+│   │   │       └── css                  # Стили
+│   │   ├── templates/                  # Шаблоны HTML
+│   │   │   └── main/                   # Шаблоны основного приложения
+│   │   │       ├── get-user.html        # Шаблон получения имени пользователя
+│   │   │       ├── layout.html          # Базовый шаблон
+│   │   │       └── index.html           # Шаблон с формой ввода имени
+│   │   ├── __init__.py                 # Модуль Python
+│   │   ├── admin.py                     # Панель администратора
+│   │   ├── apps.py                      # Приложения проекта
+│   │   ├── forms.py                     # Формы
+│   │   ├── models.py                    # Модели
+│   │   ├── tests.py                     # Тесты
+│   │   ├── urls.py                      # Маршруты приложения
+│   │   └── views.py                     # Функции-обработчики
+│   ├── requirements.txt                 # Список зависимостей
+│   ├── manage.py                        # Конфигурационный файл
+│   ├── .gitignore                       # Игнорируемые файлы
+│   └── README.md                        # Файл readme
+└── (Branch №4) fourth-test-case/       # Кейс-задача № 4
+    ├── app.js                           # Логика приложения
+    ├── index.html                       # Главная страница
+    ├── style.css                        # Стили
+    └── README.md                        # Файл readme
 ```
