@@ -5,16 +5,25 @@
 }
 
 body {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Nunito", sans-serif;
 	height: 100vh;
 	background: #e7e3fc;
 	background: radial-gradient(circle, rgba(231, 227, 252, 1) 0%, rgba(189, 189, 189, 1) 45%, rgba(153, 153, 153, 1) 100%);
 }
 
+.pixeled {
+	font-family: "Pixelify Sans", sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #696969;
+}
+
 .form-heading {
+	font-weight: 800;
+	letter-spacing: 3px;
 	font-size: 40px;
 	color: #696969;
-	text-shadow: 0px 3px 4px #696969;
+	text-shadow: 2px 0px 2px #696969;
 }
 
 .form-container {
@@ -103,6 +112,10 @@ form {
 }
 
 .founded-name {
+	font-family: "Pixelify Sans", sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+
 	background: radial-gradient(circle at 30% 50%, #d6cfc7, #b8b1a9, #9f978e, #cfc7bd, #e7e0d8);
 	background-size: 400% 400%;
 	-webkit-background-clip: text;
