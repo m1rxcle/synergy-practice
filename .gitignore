@@ -1,0 +1,5 @@
+.vscode
+greeting/
+main
+venv/
+db.sqlite3
