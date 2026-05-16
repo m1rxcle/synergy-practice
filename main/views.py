@@ -1,5 +1,4 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponse
 from .models import Django
 from .forms import User_Form
 from urllib.parse import urlencode
